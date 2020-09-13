@@ -30,7 +30,9 @@ package pl.matsyposz.$1;
 
 public class App {
 
-    public static void main(String[] args) {}
+    public static void main(String[] args) {
+        System.out.println("Looks like everything is ok");
+    }
 }
 END
 # Generate AppTest.java
