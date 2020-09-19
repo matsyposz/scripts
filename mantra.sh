@@ -15,8 +15,8 @@ cat > README.md <<- END
 - java -jar target/snapshotName.jar
 
 ### What is required?
-- Java 8+
-- Maven
+- Java 11+
+- Maven 3.5.3+
 END
 # Generate maven folder structure
 mkdir -p src/{main/{java/pl/matsyposz/$1,resources},test/java/pl/matsyposz/$1}
